@@ -31,7 +31,7 @@ import {
   sportsData,
   upcomingMatchesApiData,
 } from "../../../api/DummyDataHome";
-import UpcomingSkeletonLoader from "../Components/UpcomingSkeletonLoader";
+// import UpcomingSkeletonLoader from "../Components/UpcomingSkeletonLoader";
 
 const UserMatches = (props: any) => {
   const { width } = useDimensions();
@@ -443,7 +443,9 @@ const UserMatches = (props: any) => {
             </View>
 
             {isEmpty(upcomingMatchList) && isLoader ? (
-              <UpcomingSkeletonLoader />
+              <>
+              {/* <UpcomingSkeletonLoader /> */}
+              </>
             ) : (
               <View
                 style={{

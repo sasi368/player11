@@ -22,7 +22,7 @@ import isEmpty from "../../../Global/Helper/isEmpty";
 import { nFormatter } from "../../../Global/Helper/helperFunc";
 import AppText from "../../../Global/Components/AppText";
 import useDimensions from "../../../Global/Theme/useDimensions";
-import ContestSkeletonLoader from "../Components/ContestSkeletonLoader";
+// import ContestSkeletonLoader from "../Components/ContestSkeletonLoader";
 import { joinContest } from "../ApiActions";
 import AppLoader from "../../../Global/Components/AppLoader";
 import { displayToast } from "../../../Global/Components/Toast";
@@ -281,7 +281,11 @@ const ContestList = (props: any) => {
       <AppLoader loading={processLoader} />
 
       {isLoader ? (
-        <ContestSkeletonLoader />
+      
+        <>
+          {/* <ContestSkeletonLoader /> */}
+        </>
+
       ) : isEmpty(contestList) ? (
         <View
           style={{
