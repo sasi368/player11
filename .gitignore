@@ -1,0 +1,96 @@
+# React Native
+node_modules/
+npm-debug.*
+yarn-error.log
+.env
+.env.*
+
+# Metro / React Native cache
+.expo/
+.expo-shared/
+babel.config.js
+*.pack
+*.hprof
+*.log
+
+# macOS
+.DS_Store
+
+# Android
+/android/.gradle
+/android/app/build
+/android/.idea
+/android/local.properties
+/android/.cxx
+/android/gradle.properties
+*.keystore
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/DerivedData/
+ios/.idea
+ios/.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xccheckout
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# VSCode
+.vscode/
+
+# Test/coverage
+coverage/
+jest-cache/
+__tests__/
+*.spec.js
+*.test.js
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Prettier
+.prettiercache
+
+# Watchman
+.watchmanconfig
+
+# Web (if using react-native-web)
+.web-build/
+.next/
+
+# EAS Build (Expo users)
+eas.json
+
+# Firebase
+.firebase/
+.firebaserc
+
+# Bitrise / CI
+bitrise.yml
+bitrise.secrets.yml
